@@ -1,0 +1,53 @@
+.message-list-container {
+    max-width: 100%;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px;
+    overflow-y: auto;
+}
+
+.message-list-container::-webkit-scrollbar {
+    display: none;
+}
+
+.message-list-header {
+    margin-bottom: 20px;
+}
+
+.message-list-input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.message-list-item{
+    overflow-y: auto;
+}
+
+.message-list-item .line {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    border-bottom: 3px solid #4CAF50;
+}
+
+.list-item {
+    display: flex;
+    /* justify-content: flex-end; */
+    padding: 10px;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.list-item p {
+    margin: 0;
+    padding: 0;
+}
+
+.list-item span {
+    font-weight: 500;
+}

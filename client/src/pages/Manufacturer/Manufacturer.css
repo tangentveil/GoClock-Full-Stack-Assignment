@@ -1,0 +1,58 @@
+.manufacturer-page-container {
+    display: flex;
+    margin-top: 100px;
+    background-color: #f1f2f3;
+}
+
+.manufacturer-card {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.manufacturer-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.manufacturer-form label {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.manufacturer-form label h4 {
+    width: 20%;
+}
+
+.manufacturer-form input,
+.manufacturer-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.manufacturer-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+}
+
+.manufacturer-form button:hover {
+    background-color: #45a049;
+}
+
+.messageList{
+    width: 45%;
+}
